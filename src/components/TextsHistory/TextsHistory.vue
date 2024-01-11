@@ -26,7 +26,7 @@
               <UiButton
                 color-type="btn-danger"
                 class="remove-btn"
-                @on-click="() => deleteHistoryRecord(textItem)"
+                @click="() => deleteHistoryRecord(textItem)"
               >
                 X
               </UiButton>
@@ -35,7 +35,7 @@
         </tbody>
       </table>
       <UiButton
-        @on-click="clearHistory"
+        @click="clearHistory"
         color-type="btn-danger"
       >
         Удалить всё

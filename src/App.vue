@@ -12,7 +12,7 @@
       </div>
       <div v-else-if="fetchError">
         <h3 class="text-danger py-2">Произошла ошибка...</h3>
-        <UiButton @on-click="fetchText">Попробовать снова</UiButton>
+        <UiButton @click="fetchText">Попробовать снова</UiButton>
       </div>
       <typing-trainer-container
         v-else
